@@ -6,54 +6,12 @@
 
 /* акцент  #2196F3 */
 
-:root{
-    --primary-text-color: #757575;
-    --title-text-color: #212121;
-    --accent-color: #2196F3;
-    --wite-color: #FFFFFF;
+/* Оформление слова Studio */
+.wite{
+    color: var(--wite-color);
 }
-
-body{
-    background-color: var(--wite-color);
+.back{
     color: var(--title-text-color);
-}
-
-
-
-.logo{
-    color: var(--accent-color);
-}
-
-.logo:hover{
-    color: var(--title-text-color);
-}
-
-ul{
-    list-style: none;
-}
-
-/* Site nav */
-
-.site-nav .link{
-    color: var(--title-text-color);
-}
-
-.site-nav .link:hover, 
-.site-nav .link:focus{
-    color: var(--accent-color);
-}
-
-.site-nav .link.current{
-    color: var(--accent-color);
-} 
-
-.connection-nav .link{
-    color: var(--primary-text-color);
-}
-
-.connection-nav .link:hover,
-.connection-nav .link:focus{
-    color: var(--accent-color);
 }
 
 /* Button */
@@ -83,7 +41,14 @@ ul{
     color: var(--titlt-text-color);
 }
 
-/* Перечень занятий  */
+.features .text{
+    color: var(--primary-text-color);
+}
+
+
+/* Перечень занятий 
+-так как текст в макете белый, я не добавлял к нему свойства
+так как его не будет видно на данном этапе */
 
 
 /* Команда */
@@ -92,13 +57,33 @@ ul{
     color: var(--title-text-color);
 }
 
+.team .profession{
+    color: var(--primary-text-color);
+}
+
 /* Клиент */
 
-/* footer */
 
-footer{
-    background-color: #2F303A;   
+/*scc для portfolio*/
+
+.section-benefits .link{
+    color: var(--title-text-color);
+    background-color: var(--fill-silver);
 }
+
+.section-benefits .link:hover,
+.section-benefits .link:focus{
+    color: var(--accent-color);
+}
+.project .title{
+    color: var(--title-text-color);
+}
+
+.project .text{
+    color: var(--primary-text-color);
+}
+
+
 
 
 
