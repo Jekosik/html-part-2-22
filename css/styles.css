@@ -66,15 +66,7 @@
 
 /*scc для portfolio*/
 
-.section-benefits .link{
-    color: var(--title-text-color);
-    background-color: var(--fill-silver);
-}
 
-.section-benefits .link:hover,
-.section-benefits .link:focus{
-    color: var(--accent-color);
-}
 .project .title{
     color: var(--title-text-color);
 }
@@ -82,12 +74,4 @@
 .project .text{
     color: var(--primary-text-color);
 }
-
-
-
-
-
-
-
-
 
