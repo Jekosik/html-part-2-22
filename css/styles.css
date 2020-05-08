@@ -12,6 +12,7 @@
 }
 .back{
     color: var(--title-text-color);
+    font-family: Raleway
 }
 
 /* Button */
@@ -19,46 +20,102 @@
 .button{
     color: var(--wite-color);
     background: var(--accent-color);
+
 }
 
 .button.primary{
-
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
 }
 
 .button.secondary{
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+}
 
+/* Hero */
+
+.section-hero .service{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: var(--wite-color);;
+    background-color: black;
 }
 
 /* Section */
 
 .section-title{
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
+
+
 
 /* Feauters */
 
 .features .title{
     color: var(--titlt-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .features .text{
     color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
+ /* Перечень занятий */
 
-/* Перечень занятий 
--так как текст в макете белый, я не добавлял к нему свойства
-так как его не будет видно на данном этапе */
+.scroll .title{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 
+    color: var(--wite-color);;
+    background-color: black;
+
+}
 
 /* Команда */
 
 .team .title{
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.35;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .team .profession{
     color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.35;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 /* Клиент */
@@ -66,12 +123,49 @@
 
 /*scc для portfolio*/
 
+.project-portfolio .portfolio{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    background: #F5F4FA;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.project-portfolio .portfolio:hover,
+.project-portfolio .portfolio:focus{
+    color: var(--wite-color);
+    background-color: var(--accent-color);
+}
+
+
+.project .project-img{
+    text-decoration: none;
+}
 
 .project .title{
     color: var(--title-text-color);
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
 
 .project .text{
     color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+}
+
+.project .text-overlay{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.03em;
+    
+    color: #FFFFFF;
+    background-color: black;
 }
 
