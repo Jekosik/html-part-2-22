@@ -24,9 +24,9 @@ body{
     line-height: 1.2;
     text-decoration: none;
 }
-
+.logo:hover,
 .logo:focus{
-    color: var(--title-text-color);
+    color: var(--accent-color);
 }
 
 ul{
