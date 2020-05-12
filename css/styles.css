@@ -21,6 +21,13 @@
     color: var(--wite-color);
     background: var(--accent-color);
 
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    border-radius: 4px;
+    min-width: 200px;
+    border: 1px solid transparent;
+
 }
 
 .button.primary{
@@ -28,6 +35,8 @@
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
+
+    padding: 10px 32px;
 }
 
 .button.secondary{
@@ -35,6 +44,20 @@
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
+
+    padding: 10px 45px;
+}
+
+/* Разметка шапки */
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 1230px;
+   
+
+    background-color: tomato;
 }
 
 /* Hero */
@@ -46,9 +69,20 @@
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 46px;
 
     color: var(--wite-color);;
     background-color: black;
+}
+
+.section-hero{
+    width: 1230px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+    background-color: teal;
 }
 
 /* Section */
